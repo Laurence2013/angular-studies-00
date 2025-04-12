@@ -1,0 +1,10 @@
+<main class="main">
+	<h2>Parent Component</h2>
+	<p>Interact with the child counter below.</p>
+	<app-child-comp></app-child-comp>
+	<hr>
+	<button (click)="resetChildReset()">Reset Child Counter (from Parent)</button>
+	<button (click)="readChildReset()">Rear Child Count (from Parent)</button>
+	<p *ngIf="lastReadCount !== null">Last count read from child: {{ lastReadCount }}</p>
+</main>
+<router-outlet />
