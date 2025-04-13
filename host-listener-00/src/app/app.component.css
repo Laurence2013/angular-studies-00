@@ -1,0 +1,17 @@
+.main {
+  background-color: #f0f8ff;  /* AliceBlue background for the main container */
+  padding: 20px;
+}
+.content {
+  background-color: #fffaf0;  /* FloralWhite background for the content div */
+  padding: 15px;
+  border-radius: 5px;
+}
+p {
+	padding: 40px;
+  background-color: #e3f2fd;  /* Lighter blue */
+}
+p[appHighlight] {
+	padding: 40px;
+  background-color: #ffecb3;  /* Light yellow */
+}
