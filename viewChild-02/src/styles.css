@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+/* Base style for the element (as before) */
+[appHighlight] {
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+  font-family: sans-serif;
+  background-color: #f9f9f9; /* Default background */
+  color: #333; /* Default text color */
+  /* Define fallback for the CSS variable */
+  --highlight-custom-color: yellow; /* Default highlight if var not set */
+}
+
+/* Style for the hover class added by the directive */
+.highlight-hover {
+  background-color: lightblue; /* Define hover color in CSS */
+  color: black;
+}
+
+/* Style for the custom highlight class added by the directive */
+.highlight-custom {
+  /* Use the CSS variable set by the directive */
+  background-color: var(--highlight-custom-color);
+  /* Optionally change text color for contrast */
+  color: black;
+}
+
+/* Example of predefined color classes (if using Option 1 in highlight method) */
+/*
+.highlight-orange {
+  background-color: orange;
+  color: white;
+}
+.highlight-green {
+    background-color: lightgreen;
+    color: black;
+}
+*/
+
+/* Other general styles (as before) */
+h2 { /* ... */ }
+button { /* ... */ }
+button:hover { /* ... */ }
