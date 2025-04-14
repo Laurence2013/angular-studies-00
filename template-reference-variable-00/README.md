@@ -1,6 +1,7 @@
 # Studies reference
 LLM: Gemini
 Main question: In Angular give code examples and explain 'Template Reference Variable'.
+Code example: Example 1: Accessing an Input Element's Value
 evernote-tag: template-ref-var
 
 
