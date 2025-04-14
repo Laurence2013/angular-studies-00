@@ -1,3 +1,9 @@
+# Studies reference
+LLM: Gemini 
+Main question: In Angular give code examples and explain 'Template Reference Variable'. 
+Code example: Example 3: Referencing a Directive (ngModel)
+evernote-tag: template-ref-var
+
 # TemplateReferenceVariable02
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
