@@ -1,3 +1,14 @@
+# Studies reference
+LLM: Gemini 
+Main question: In Angular give code examples and explain 'Angular Life Cycle Hooks'.
+Code example:
+Youtube Link: https://www.youtube.com/watch?v=44052FmLwr0
+Youtube Title: #39 ngOnChanges Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
+Downloaded? Yes
+evernote-tag: template-ref-var
+
+
+
 # NgOnChanges00
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
