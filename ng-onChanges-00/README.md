@@ -5,7 +5,7 @@ Code example:
 Youtube Link: https://www.youtube.com/watch?v=44052FmLwr0
 Youtube Title: #39 ngOnChanges Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
 Downloaded? Yes
-evernote-tag: template-ref-var
+evernote-tag: ng-onChange
 
 
 
