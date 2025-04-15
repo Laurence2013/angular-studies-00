@@ -1,5 +1,8 @@
 <main class="main">
   <div class="content">{{ title }}</div>
 	<hr>
+	<input type='text' #inputEl>
+	<button (click)="onBtnClicked(inputEl)">Submit</button>
+	<app-child [message]="inputVal"></app-child>
 </main>
 <router-outlet />
