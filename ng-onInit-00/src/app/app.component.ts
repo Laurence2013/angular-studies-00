@@ -14,12 +14,13 @@ import { Child3Component } from './child3/child3.component';
 export class AppComponent {
 
   public title:string = '#40 ngOnInit Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course';
-	//public inputVal?:string;
-	public inputVal?:string[] = ['Hello', 'World'];
+	public inputVal?:string;
+	//public inputVal?:string[] = ['Hello', 'World'];
 	public initialItems?:string[] = ['Apple', 'Banana', 'Cherry'];
 
 	public constructor(){}
 	public onBtnClicked(inputEl: HTMLInputElement):void {
-		this.inputVal?.push(inputEl.value);
+		this.inputVal = inputEl.value;
+		//this.inputVal?.push(inputEl.value);
 	}
 }

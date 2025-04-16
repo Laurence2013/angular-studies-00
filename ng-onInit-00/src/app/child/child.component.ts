@@ -12,7 +12,8 @@ export class ChildComponent implements OnChanges, OnInit {
 	
 	public title?:string = 'Demo Component';
 	
-	@Input() public message?:string[];
+	//@Input() public message?:string[];
+	@Input() public message?:string;
 
 	@ViewChild('temp') public tempPara?:ElementRef;
 
@@ -20,7 +21,7 @@ export class ChildComponent implements OnChanges, OnInit {
 		console.log('ChildComponent constructor called.');
 	}
 	public ngOnChanges(changes: SimpleChanges):void {
-		console.log('ChildComponent ngOnChanges Hook called.');
+		console.log('ChildComponent ngOnChanges Hook called.', this.message);
 	}
 	public ngOnInit():void {
 		console.log('ChildComponent ngOnInit Hook called.');
