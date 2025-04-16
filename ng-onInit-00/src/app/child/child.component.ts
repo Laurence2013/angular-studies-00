@@ -17,13 +17,13 @@ export class ChildComponent implements OnChanges, OnInit {
 	@ViewChild('temp') public tempPara?:ElementRef;
 
 	public constructor(){
-		console.log('Demo component constructor called.');
+		console.log('ChildComponent constructor called.');
 	}
 	public ngOnChanges(changes: SimpleChanges):void {
-		console.log('ngOnChanges Hook called.');
+		console.log('ChildComponent ngOnChanges Hook called.');
 	}
 	public ngOnInit():void {
-		console.log('ngOnInit Hook called.');
+		console.log('ChildComponent ngOnInit Hook called.');
 		console.log(this.tempPara?.nativeElement.innerHTML);
 	}
 }

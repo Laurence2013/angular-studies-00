@@ -2,6 +2,9 @@
 LLM: Gemini 
 Main question: In Angular give code examples and explain ngOnInit().
 Code example: 
+	-1. Basic Structure:
+	-Example 1: Accessing an @Input Array
+
 Youtube Link: https://www.youtube.com/watch?v=QxlVa9PMv34
 Youtube Title: #40 ngOnInit Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
 Downloaded? No

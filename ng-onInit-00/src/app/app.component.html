@@ -4,5 +4,9 @@
 	<input type='text' #inputEl>
 	<button (click)="onBtnClicked(inputEl)">Submit</button>
 	<app-child [message]="inputVal"></app-child>
+	<hr>
+	<app-child2></app-child2>
+	<hr>
+	<app-child3 [itemsList]="initialItems"></app-child3>
 </main>
 <router-outlet />
