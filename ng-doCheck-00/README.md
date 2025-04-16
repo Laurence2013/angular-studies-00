@@ -1,3 +1,12 @@
+# Studies reference
+LLM: Gemini 
+Main question: In Angular give code examples and explain ngDoCheck().
+Code example: 
+Youtube Link: https://www.youtube.com/watch?v=lgfxPZceA1U
+Youtube Title: #41 ngDoCheck Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
+Downloaded? No
+evernote-tag: ng-doCheck
+
 # NgDoCheck00
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
