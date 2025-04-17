@@ -2,7 +2,10 @@
 LLM: Gemini 
 Main question: In Angular give code examples and explain ngDoCheck().
 Code example: 
-Youtube Link: https://www.youtube.com/watch?v=lgfxPZceA1U
+	-Example 1: Detecting Internal Object Mutation, [app.component, child2.component]
+	-Example 2: Detecting Array Length Change (Simple Case), [app.component, child3.component]
+
+Youtube Link: https://www.youtube.com/watch?v=lgfxPZceA1U, [app.component, child1.component]
 Youtube Title: #41 ngDoCheck Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
 Downloaded? No
 evernote-tag: ng-doCheck

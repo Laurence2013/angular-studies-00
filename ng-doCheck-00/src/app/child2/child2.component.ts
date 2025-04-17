@@ -13,7 +13,7 @@ export class Child2Component implements OnInit, OnChanges, DoCheck {
 	@Input() public childConfig?:Config;
 
 	private previousConfigName?:string;
-	private doCheckCount:number = 0;
+	public doCheckCount:number = 0;
 
 	public constructor(){}
 	public ngOnChanges(changes: SimpleChanges):void {

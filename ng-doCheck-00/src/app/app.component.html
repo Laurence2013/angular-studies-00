@@ -1,6 +1,7 @@
 <main class="main">
   <div class="content">{{ title }}</div>
 	<hr>
+	<h3>App Component</h3>
 
 	<!--<input type='text' #inputEl>-->
 	<input type='text' #inputEl (focus)="0">
@@ -15,5 +16,11 @@
 	<pre>{{ appConfig.value }}</pre>-->
 
 	<app-child2 [childConfig]="appConfig"></app-child2>
+	<hr>
+	<h2>App Component - Array Component</h2>
+	<button (click)="addItem()">Add Item (Mutate)</button>
+	<button (click)="replaceArray()">Replace Array</button>
+	<pre>{{ itemsArray }}</pre>
+	<app-child3></app-child3>
 </main>
 <router-outlet />
