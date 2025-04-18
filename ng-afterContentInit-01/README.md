@@ -1,3 +1,14 @@
+# Studies reference
+LLM: Gemini 
+Main question: In Angular give code examples and explain ngAfterContentInit(). 
+Code example:
+	-At 'Example 2: Using @ContentChild', expand the code more detail.
+
+Youtube Link: https://www.youtube.com/watch?v=fWdj-EuLmuk, [app.component, child1.component] 
+Youtube Title: #42 ngAfterContentInit Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course 
+Downloaded? No 
+evernote-tag: ng-afterContentInit
+
 # NgAfterContentInit01
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
