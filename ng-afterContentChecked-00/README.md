@@ -1,3 +1,15 @@
+# Studies reference
+
+LLM: Gemini 
+Main question: In Angular give code examples and explain ngAfterContentChecked().
+Code example:
+	-1. Child Component (content-card.component.ts)
+
+Youtube Link: https://www.youtube.com/watch?v=OHFlvtysZdU
+Youtube Title: #43 ngAfterContentChecked Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
+Downloaded? No 
+evernote-tag: ng-afterContentChecked
+
 # NgAfterContentChecked00
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.

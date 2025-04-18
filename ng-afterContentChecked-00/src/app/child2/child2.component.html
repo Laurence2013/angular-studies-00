@@ -1,0 +1,11 @@
+<p>Child2 Component</p>
+<div class="card">
+	<div class="card-header">Card Title</div>
+	<div class="card-body">
+		<ng-content></ng-content>
+	</div>
+	<div class="card-footer">
+		<p>Last checked timestamp: {{ lastCheckedTimestamp }}</p>
+		<p #projectedParagraph>Accessing projected element directly (example)</p>
+	</div>
+</div>
