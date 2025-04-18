@@ -28,6 +28,6 @@ export class Child1Component implements OnChanges, OnInit, DoCheck, AfterContent
 		console.log('Child1Component ngDoCheck() fired!', this.paraContent);
 	}
 	public ngAfterContentInit():void {
-		console.log('Child1Component ngAfterContentInit() fired!', this.paraContent?.nativeElement);
+		console.log('Child1Component ngAfterContentInit() fired!', this.paraContent?.nativeElement.innerText);
 	}
 }
