@@ -1,3 +1,14 @@
+# Studies reference
+
+LLM: Gemini 
+Main question: In Angular give code examples and explain ngAfterViewChecked(). 
+Code example:
+
+Youtube Link: https://www.youtube.com/watch?v=tZ2BKFotcaQ
+Youtube Title: #45 ngAfterViewChecked Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
+Downloaded? No 
+evernote-tag: ng-afterViewChecked
+
 # NgAfterViewChecked
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
