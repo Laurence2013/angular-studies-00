@@ -1,3 +1,13 @@
+# Studies reference
+LLM: Gemini 
+Main question: In Angular give code examples and explain ngOnDestroy(). 
+Code example:
+
+Youtube Link: https://www.youtube.com/watch?v=G0dBLoV7w_M
+Youtube Title: #46 ngOnDestroy Lifecycle Hook | Lifecycle Hooks in Angular | A Complete Angular Course
+Downloaded? No 
+evernote-tag: ng-onDestroy
+
 # NgOnDestroy00
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
