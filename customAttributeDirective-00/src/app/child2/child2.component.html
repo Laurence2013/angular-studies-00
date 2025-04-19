@@ -1,0 +1,18 @@
+<hr>
+<h2>Child2 Component</h2>
+<p>Component B also uses the shared directive:</p>
+
+<ul>
+	<li appHighlights="lightgreen" class="pads">
+    List item with hardcoded 'lightgreen' highlight.
+  </li>
+  <li [appHighlights]="alertColour" class="pads">
+    Another list item using highlight bound to '{{ alertColour }}'.
+  </li>
+  <li appHighlights class="pads">
+    This one uses the default yellow highlight again 1.
+  </li>
+  <li appHighlights class="pads">
+    This one uses the default yellow highlight again 2.
+  </li>
+</ul>

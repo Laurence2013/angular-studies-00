@@ -1,0 +1,10 @@
+<h3>Child1 Component</h3>
+<p>Hover over the text below:</p>
+
+<div appHighlights class="pads">
+  This text in Component A uses the default (yellow) highlight on hover.
+</div>
+
+<p [appHighlights]="componentAColour" class="component pads">
+  This paragraph in Component A uses a custom highlight color ({{ componentAColour }}) bound from the component property.
+</p>
