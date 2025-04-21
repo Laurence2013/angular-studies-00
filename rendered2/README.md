@@ -1,3 +1,13 @@
+# Studies reference
+LLM: Gemini 
+Main question: In Angular give code examples and explain ngOnDestroy(). 
+Code example:
+
+Youtube Link: https://www.youtube.com/watch?v=KD7xsoerGJI
+Youtube Title: #47 Custom Attribute Directive | Creating & Using Custom Directive | A Complete Angular Course 
+Downloaded? No 
+evernote-tag: renderer2
+
 # Rendered2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
