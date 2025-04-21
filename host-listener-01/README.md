@@ -1,3 +1,13 @@
+# Studies reference
+
+LLM: Gemini Main question: In Angular give code examples and explain ngOnDestroy(). 
+Code example:
+
+Youtube Link: https://www.youtube.com/watch?v=mlCx7-2oYq4
+Youtube Title: #49 @HostListner in Angular | Creating & Using Custom Directive | A Complete Angular Course
+Downloaded? No 
+evernote-tag: host-listener
+
 # HostListener01
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.

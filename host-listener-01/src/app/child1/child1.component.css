@@ -1,0 +1,35 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+li:hover {
+  background: #e0e0e0;
+  cursor: pointer;
+}
+.highlight-product {
+	-webkit-box-shadow: 0 0 1px 3px #000 inset;
+	-moz-box-shadow: 0 0 1px 3px #000 inset;
+	border: #efefef 2px solid;
+	box-shadow: 10px 10px 18px #cccccc;
+	transform: scale(1.05);
+}
