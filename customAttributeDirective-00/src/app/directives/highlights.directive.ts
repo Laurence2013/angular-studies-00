@@ -8,9 +8,11 @@ export class HighlightsDirective implements OnInit, AfterViewInit, OnChanges {
 
 	private originalColour?:string;
 
-	@Input('appHighlights') public highlightsColour?:string;
+	//@Input('appHighlights') public highlightsColour?:string;
 	//@Input('appHighlights') public highlightsColour:string = 'yellow';
+	//@Input('appHighlights') public highlightsColour:string = 'transparent';
 	//@Input() public highlightsColour:string = 'yellow';
+	@Input() public highlightsColour:string = 'transparent';
 
   public constructor(private elRef: ElementRef, private renderer: Renderer2){
 		//this.highlightsColour = 'yellow';
@@ -34,14 +36,17 @@ export class HighlightsDirective implements OnInit, AfterViewInit, OnChanges {
 		if(!this.elRef.nativeElement.style.backgroundColor || this.elRef.nativeElement.style.backgroundColor === this.originalColour){
 			this.originalColour = this.elRef.nativeElement.style.backgroundColor || '';
 		};
-		this.changeBackgroundColour(this.highlightsColour || null);
+		this.changeBackgroundColour00(this.highlightsColour || null);
 	}
 	@HostListener('mouseleave') public onMouseLeave(){
 		console.log('onMouseLeave(): ', this.highlightsColour);
 
-		this.changeBackgroundColour(this.originalColour || null);
+		this.changeBackgroundColour00(this.originalColour || null);
 	}
-	private changeBackgroundColour(colour: string | null){
+	private changeBackgroundColour00(colour: string | null){
+			this.renderer.setStyle(this.elRef.nativeElement, 'backgroundColor', colour);
+	}
+	private changeBackgroundColour01(colour: string | null){
 		console.log(this.highlightsColour);
 		if(colour === null){
 			console.log('changeBackgroundColour(): ', colour);
