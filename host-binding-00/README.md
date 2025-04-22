@@ -1,3 +1,12 @@
+# Studies reference
+LLM: Gemini Main question: In Angular give code examples and explain ngOnDestroy(). 
+Code example:
+
+Youtube Link: https://www.youtube.com/watch?v=AulytLapE7U
+Youtube Title: #50 @HostBinding in Angular | Creating & Using Custom Directive | A Complete Angular Course
+Downloaded? No 
+evernote-tag: host-binding
+
 # HostBinding00
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
