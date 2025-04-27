@@ -1,3 +1,13 @@
+# Studies reference
+LLM: Gemini 
+Main question: In Angular give code examples and explain the differences between property binding vs host binding (@HostBinding)
+Code example:
+
+Youtube Link: https://www.youtube.com/watch?v=_l64RUZwPts
+Youtube Title: #51 Property Binding vs @HostBinding | Creating & Using Custom Directive | A Complete Angular Course
+Downloaded? No 
+evernote-tag: property-binding-vs-host-binding
+
 # PropertyBindingVsHostBinding00
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
